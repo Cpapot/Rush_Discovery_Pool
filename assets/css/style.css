@@ -130,7 +130,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -241,7 +241,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #151515;
@@ -353,6 +353,26 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero-bg.png");
+  position: relative;
+}
+
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
 
 
 /* #hero {
@@ -436,7 +456,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Sections Generales
+# Sections General
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
@@ -467,7 +487,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About Us = a propos
+# About Us
 --------------------------------------------------------------*/
 .about .image {
   padding: 20px;
@@ -501,7 +521,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services = experiences
+# Services
 --------------------------------------------------------------*/
 .services .icon-box h4 {
   font-size: 20px;
@@ -525,6 +545,7 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 10px 10px 10px grey;
   min-height: 400px;
 }
 
