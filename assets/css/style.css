@@ -353,26 +353,6 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 
-#hero {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/hero-bg.png");
-  position: relative;
-}
-
-#hero .hero-container {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 0 15px;
-}
 
 
 /* #hero {
@@ -456,7 +436,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Sections General
+# Sections Generales
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
@@ -487,7 +467,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About Us
+# About Us = a propos
 --------------------------------------------------------------*/
 .about .image {
   padding: 20px;
@@ -521,7 +501,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Services = experiences
 --------------------------------------------------------------*/
 .services .icon-box h4 {
   font-size: 20px;
