@@ -10,7 +10,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
+  font-family: 'Play', sans-serif
   color: #555555;
 }
 
@@ -30,7 +31,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Pacifico', cursive;
+  /*font-family: "Montserrat", sans-serif;*/
 }
 
 /*--------------------------------------------------------------
@@ -350,10 +352,11 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/42_Logo.svg.png");
+  background: url("../img/hero-bg.png");
   position: relative;
 }
 
@@ -370,6 +373,29 @@ h6 {
   text-align: center;
   padding: 0 15px;
 }
+
+
+/* #hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/42_Logo.svg.png");
+  background-repeat:no-repeat;
+  position: relative;
+}ajout du non repeat pour que le 42 ne se repete pqas sur toute la page */
+
+/*#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+} si on enleve cela evite la superposition du logo*/
 
 #hero .hero-logo {
   margin-bottom: 30px;
@@ -403,24 +429,25 @@ h6 {
   margin: 10px;
   color: #fff;
   background: #7cc576;
-}
+} /* realise une action sur les boutons verts*/
 
 #hero .btn-get-started:hover {
   transition: 0.5s;
   background: #fff;
   color: #7cc576;
-}
+} /* modification a la marge*/
 
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
-}
+}/* modification a la marge*/
 
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    background-repeat: no-repeat;
   }
 
   #hero h2 {
